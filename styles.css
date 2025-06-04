@@ -41,8 +41,19 @@ input[type="number"] {
     border-radius: 4px;
 }
 
-input[type="checkbox"] {
-    margin-left: 5px;
+fieldset {
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
 }
 
 .button-group {
@@ -88,4 +99,31 @@ button:hover {
 #result.not-eligible {
     background-color: #f8d7da;
     color: #721c24;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #555;
+}
+
+#toggle-calculations {
+    margin-top: 10px;
+    padding: 8px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+#toggle-calculations:hover {
+    background-color: #0056b3;
+}
+
+#calculation-details {
+    margin-top: 10px;
+    display: none;
 }
